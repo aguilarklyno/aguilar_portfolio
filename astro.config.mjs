@@ -12,6 +12,9 @@ export default defineConfig({
     tailwind(),
     sitemap(),
     robotsTxt(),
+    starlight({
+      title: "Python for Finance",
+    })
   ],
   site: SITE_URL,
   markdown: {
