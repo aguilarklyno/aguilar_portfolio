@@ -16,7 +16,7 @@ link: " url of the project",
   {
     title: "Portfolio / coming soon...",
     techs: ["Astro"],
-    link: "/",
+    link: "https://www.klynoroales-aguilar.com/home",
     isComingSoon: true,
   },
 ];
