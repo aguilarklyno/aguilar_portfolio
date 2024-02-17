@@ -4,10 +4,18 @@ import sitemap from "@astrojs/sitemap";
 import robotsTxt from "astro-robots-txt";
 import { SITE_URL } from "./src/data/config";
 
+import starlight from "@astrojs/starlight";
 
 // https://astro.build/config
 export default defineConfig({
-  integrations: [tailwind(), sitemap(), robotsTxt()],
+  integrations: [
+    tailwind(),
+    sitemap(),
+    robotsTxt(),
+    starlight({
+      title: "Python for Finance",
+    })
+  ],
   site: SITE_URL,
   markdown: {
     syntaxHighlight: "shiki",
