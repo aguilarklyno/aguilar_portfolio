@@ -1,3 +1,5 @@
+import { addAttribute } from "astro/compiler-runtime";
+
 export type Project = {
   title: string;
   techs: string[];
@@ -6,18 +8,13 @@ export type Project = {
 };
 
 const projects: Project[] = [
+/*
+title: "Dictionary of App",
+techs: ["skill1", "skill2", "skill3"],
+link: " url of the project",
+*/
   {
-    title: "Dictionary App",
-    techs: ["ReactJS (NextJS)", "react-query", "zod"],
-    link: "https://github.com/MaeWolff/dictionary-app",
-  },
-  {
-    title: "Portfolio / Lina BLIDI",
-    techs: ["ReactJS (NextJS)", "TypeScript"],
-    link: "https://www.linablidi.fr/",
-  },
-  {
-    title: "Portfolio / Template",
+    title: "Portfolio / coming soon...",
     techs: ["Astro"],
     link: "/",
     isComingSoon: true,

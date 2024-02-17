@@ -14,7 +14,7 @@ type Presentation = {
 const presentation: Presentation = {
   mail: "aguilarklyno@gmail.com",
   title: "Hi, I’m Klyno R Aguilar 👋",
-  // profile: "/profile.webp",
+  profile: "/profile.jpg",
   description:
     "Hellow, i'm a *Japanese frontend and data analysis learner* with over *2 years of studing and working experience* as an intern. I am currently working with *NextJS, Typescript and Python*. Outside of work, I also learning finance especially *Corporate Finance and Algorithmic Trading*.",
   socials: [
