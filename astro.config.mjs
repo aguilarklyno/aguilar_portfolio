@@ -14,6 +14,9 @@ export default defineConfig({
     robotsTxt(),
     starlight({
       title: "Python for Finance",
+      logo: {
+        src: './public/icons-3d-color/dollar-front.png',
+      }
     })
   ],
   site: SITE_URL,
