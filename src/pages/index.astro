@@ -41,7 +41,12 @@ const posts = (await getCollection("posts")).sort(function (first, second) {
 
         <h2
           class="w-auto max-w-[60ch] leading-6"
-          set:html={convertAsteriskToStrongTag(presentation.description)}
+          set:html={convertAsteriskToStrongTag(presentation.descriptionEnglish)}
+        />
+
+        <h2
+          class="w-auto max-w-[60ch] leading-6"
+          set:html={convertAsteriskToStrongTag(presentation.descriptionJapanese)}
         />
 
         <SocialLinks />
