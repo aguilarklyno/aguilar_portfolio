@@ -1,11 +1,11 @@
-export type Skills = {
+export type Skill = {
   title: string;
   techs: string[];
   link: string;
   isComingSoon?: boolean;
 };
 
-const skills: Skills[] = [
+const skills: Skill[] = [
 /*
 title: "Dictionary of App",
 techs: ["skill1", "skill2", "skill3"],

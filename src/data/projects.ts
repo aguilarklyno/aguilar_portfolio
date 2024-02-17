@@ -1,5 +1,3 @@
-import { addAttribute } from "astro/compiler-runtime";
-
 export type Project = {
   title: string;
   techs: string[];
