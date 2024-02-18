@@ -16,6 +16,21 @@ export default defineConfig({
       title: "Python for Finance",
       logo: {
         src: './public/icons-3d-color/dollar-front.png',
+      },
+      social: {
+        github: 'https://github.com/aguilarklyno',
+        'x.com': 'https://twitter.com/KlynoAguilar',
+        linkedin: 'https://www.linkedin.com/in/klynoroales-aguilar-8b693126b/',
+      },
+      locales: {
+        root: {
+          label: 'Japanese',
+          lang: 'ja',
+        },
+        en: {
+          label: 'English',
+          lang: 'en',
+        },
       }
     })
   ],
