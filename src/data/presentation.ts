@@ -37,6 +37,10 @@ const presentation: Presentation = {
       label: "Qiita",
       link: "https://qiita.com/aguilarklyno",
     },
+    {
+      label: "Zenn",
+      link: "https://zenn.dev/aguilar_klyno",
+    },
   ],
 };
 

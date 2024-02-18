@@ -1,15 +1,45 @@
 ---
-title: "4.1 CAPM"
+title: "4.1 CAPMの計算"
 description: ""
 sidebar:
-  label: "4.1 CAPM" # サイドバーのラベル
+  label: "4.1 CAPMの計算" # サイドバーのラベル
   order: 410 # サイドバーの順番
   badge: {
-    text: "作成中", # バッジのテキスト
-    variant: "note" # バッジのバリアント
+      text: "作成中", # バッジのテキスト
+      variant: "note", # バッジのバリアント
     }
   lastUpdated: true # 最終更新日を表示
   pagination: true # ぺージネーションを表示
 ---
-## title
 
+import Latex from "../../../components/Latex.astro";
+
+### CAPM(Capital Asset Pricing Model)とは
+
+CAPM(Capital Asset Pricing Model)とは、資本資産価格モデルとも呼ばれ、リスク (systematic risk) とリターン (expected return) の関係を示すモデルです。基本的には株に使用され、投資とリスクの線形的な関係を示します。CAPM は、各アセットのベータ(beta)、リスクフリーレート(risk-free rate)、市場リスクプレミアム(equity risk premium)もしくはリターン(expected return)を用います。
+
+### CAPM の計算式
+
+CAPM の計算式は以下の通りです。
+
+<Latex formula='E(R_i) = R_f + \beta_i(E(R_m) - R_f)'/>
+
+
+- $E(R_i)$: アセット i の期待リターン
+- $R_f$: リスクフリーレート
+- $\beta_i$: アセット i のベータ
+- $E(R_m)$: 市場リスクプレミアム
+
+### ベータの計算
+
+---
+
+### 参考
+
+- ・[CAPM におけるベータを自分で算出してみた](https://qiita.com/homura99/items/2838a2e24d507ea57890)
+- ・[Capital Asset Pricing Model (CAPM) and Assumptions Explained
+  ](https://www.investopedia.com/terms/c/capm.asp)
+- ・[Introduction to the Capital Asset Pricing Model (CAPM) with Python
+  ](https://www.mlq.ai/capital-asset-pricing-model-python/)
+- ・[The Capital Asset Pricing Model (CAPM): Financial Analysis In Python
+  ](https://medium.com/mlearning-ai/the-capital-asset-pricing-model-capm-financial-analysis-in-python-1a7a4f2c7650)
