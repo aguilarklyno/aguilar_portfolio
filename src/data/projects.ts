@@ -14,7 +14,7 @@ link: " url of the project",
   {
     title: "Python for Finance",
     techs: ["#document", "#python", "#finance"],
-    link: "https://www.klynoroales-aguilar.com/00-greeting/",
+    link: "https://www.klynoroales-aguilar.com/0-greeting/",
     isComingSoon: false,
   },
 ];
