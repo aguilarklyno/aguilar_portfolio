@@ -1,0 +1,154 @@
+---
+title: "ANACONDA コマンド早見表"
+description: ""
+sidebar:
+  label: "ANACONDA コマンド早見表" # サイドバーのラベル
+  order: 999000 # サイドバーの順番
+  badge: {
+    text: "作成中", # バッジのテキスト
+    variant: "success" # バッジのバリアント
+    }
+  lastUpdated: true # 最終更新日を表示
+  pagination: true # ぺージネーションを表示
+---
+これを見ればもう大丈夫！というくらいのコマンドをまとめています。
+
+### 基本操作コマンド
+<table style={{ width: "100%" }}>
+  <thead style={{ backgroundColor: "green", color: "white" }}>
+    <tr>
+      <th colspan="2" style={{ width: "100%" }}>Conda 基礎編</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        Verify conda is installed, check version number
+      </td>
+      <td>
+      ```
+        conda info
+      ```
+      </td>
+    </tr>
+    <tr>
+      <td>
+        Update conda to the current version
+      </td>
+      <td>
+      ```
+        conda update conda
+      ```
+      </td>
+    </tr>
+    <tr>
+      <td>
+        Install a package included in Anaconda
+      </td>
+      <td>
+      ```
+        conda install PACKAGENAME
+      ```
+      </td>
+    </tr>
+    <tr>
+      <td>
+        Run a package after install, example Spyder*
+      </td>
+      <td>
+      ```
+        spyder
+      ```
+      </td>
+    </tr>
+    <tr>
+      <td>
+        Update any installed program
+      </td>
+      <td>
+      ```
+        conda update PACKAGENAME
+      ```
+      </td>
+    </tr>
+    <tr>
+      <td>
+        Command line help
+      </td>
+      <td>
+      ```
+        COMMANDNAME --help
+        conda install --help
+      ```
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+---
+### 仮想環境を使う
+<table style={{ width: "100%" }}>
+  <thead style={{ backgroundColor: "green", color: "white" }}>
+    <tr>
+      <th colspan="2" style={{ width: "100%" }}>Conda 仮想環境編</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        Create a new environment named py35, install Python 3.5
+      </td>
+      <td>
+        ```
+        conda create --name py35 python=3.5
+        ```
+      </td>
+    </tr>
+    <tr>
+      <td>
+        Activate the new environment to use it
+      </td>
+      <td>
+        ```
+        WINDOWS:    activate py35 
+        LINUX, macOS: source activate py35
+        ```
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+
+---
+### パッケージを探す
+<table style={{ width: "100%" }}>
+  <thead style={{ backgroundColor: "green", color: "white" }}>
+    <tr>
+      <th colspan="2" style={{ width: "100%" }}>title</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        first column text
+      </td>
+      <td>
+      ```
+        second column text
+      ```
+      </td>
+    </tr>
+    <tr>
+      <td>
+        first column text
+      </td>
+      <td>
+      ```
+        second column text
+      ```
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+

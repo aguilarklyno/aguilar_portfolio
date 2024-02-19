@@ -42,6 +42,32 @@ export default defineConfig({
           lang: "en",
         },
       },
+      sidebar: [
+        {
+          label: '§0-greeting', collapsed: false, // 折りたたまない
+          autogenerate: {directory: '§0-greeting',collapsed: true }, // 折りたたむ
+        },
+        {
+          label: '§2-統計学',collapsed: false, // 折りたたまない
+          autogenerate: {directory: '§2-統計学',collapsed: true },　// 折りたたむ
+        },
+        {
+          label: '§3-データ分析基礎',collapsed: false, // 折りたたまない
+          autogenerate: {directory: '§3-データ分析基礎',collapsed: true },　// 折りたたむ
+        },
+        {
+          label: '§4-コンセプト別',collapsed: false, // 折りたたまない
+          autogenerate: {directory: '§4-コンセプト別',collapsed: true },　// 折りたたむ
+        },
+        {
+          label: '§5-深層学習',collapsed: false, // 折りたたまない
+          autogenerate: {directory: '§5-深層学習',collapsed: true },　// 折りたたむ
+        },
+        {
+          label: 'z-その他',collapsed: false, // 折りたたまない
+          autogenerate: {directory: 'z-その他',collapsed: true },　// 折りたたむ
+        },
+      ],
     }),
     mdx(),
   ],
